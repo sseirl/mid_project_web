@@ -1,0 +1,72 @@
+table {
+      width: 90%;
+      border-collapse: collapse;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 8px; 
+      overflow: hidden;
+      position: absolute;
+      top: 15%;
+      left: 5%;
+    }
+    
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: left;
+     
+    }
+
+    .tdd {
+      padding: 12px;
+      text-align: center;
+      border: 2px solid #ddd;
+      font-size: 160%;
+
+    }
+    
+    th {
+      background-image: url(../photos/sky.jpg);
+      color: rgba(241, 244, 245, 0.652); 
+      font-size: 30px;
+      text-align: center;
+    }
+    
+    tr{
+      color: #1f224e;
+      background-color: rgb(202, 215, 242);
+    }
+
+
+    tr:hover {
+      background-image: url(../photos/sky.jpg);
+      color: #fcfcfc;
+    }
+    
+    td {
+      border: none; 
+      border-bottom: 1px solid #ddd; 
+    }
+    
+  
+    
+
+
+    .floating-button {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      padding: 15px 25px;
+      background-color: #3498db; 
+      color: #ffffff; 
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+      
+  }
+  
+  .floating-button:hover {
+      background-color: #2980b9;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
